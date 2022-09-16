@@ -1,0 +1,29 @@
+.upper{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerleft{
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+}
+
+.innerright{
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+}
+
+.innerinner{
+    background-color: red;
+}
+
+.lower {
+    background-color: lightgreen;
+}
+
+.inner{
+    background-color: black;
+}
