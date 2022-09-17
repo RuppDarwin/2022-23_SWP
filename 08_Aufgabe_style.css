@@ -1,0 +1,67 @@
+:root{
+    --smallsize: 50px;
+    --midsize: 100px;
+    --bigsize: 300px;
+    --hugesize: 600px;
+}
+
+.upper{
+    margin: 70px;
+    display: grid;
+    background-color: white;
+    grid-template-areas: 
+        'left right'
+        'bottom bottom'
+    ;
+    width: 600px;
+    position: relative;
+}
+
+.left{
+    background-color: lightgreen;
+    height: var(--bigsize);
+    width: var(--bigsize);
+    grid-area: left;
+}
+
+.right{
+    background-color: cyan;
+    height: var(--bigsize);
+    width: var(--bigsize);
+    grid-area: right;
+    position: absolute;
+}
+
+.rightup{
+    background-color: black;
+    width: var(--smallsize);
+    height: var(--smallsize);
+    position: Absolute;
+    right: 0;
+    top: 0;
+}
+
+.bottom{
+    background-color: orange;
+    height: var(--midsize);
+    width: var(--hugesize);
+    grid-area: bottom
+}
+
+.bottomleft{
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: var(--bigsize);
+    width: var(--bigsize);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-color: orange;
+    width: var(--midsize);
+    height: var(--midsize);
+}
