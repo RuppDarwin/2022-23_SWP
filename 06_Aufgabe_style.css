@@ -1,0 +1,45 @@
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.inner{
+    background-color: lightgreen;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerinner{
+    position: relative;
+    border: solid;
+    height: 80px;
+    width: 80px;
+}
+
+.lower{
+    position: absolute;
+    background-color: cyan;
+    height: 400px;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+}
+
+.innerblacktop{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+}
+
+.innerblackbottom{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    bottom: 0;
+    left: -20px;
+}
