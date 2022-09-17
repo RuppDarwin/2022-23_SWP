@@ -1,0 +1,60 @@
+:root{
+    --smallsize: 50px;
+    --midsize: 70px;
+    --bigsize: 300px;
+    --hugesize: 600px;
+}
+
+body{
+    display: flex;
+}
+
+.left{
+    height: var(--hugesize);
+    width: var(--hugesize);
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.innercenter{
+    height: var(--midsize);
+    width: var(--midsize);
+    background-color: blue;
+    position: absolute;
+}
+
+.innerbottom{
+    height: var(--midsize);
+    width: var(--midsize);
+    background-color: purple;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+    left:0;
+}
+
+.inner{
+    height: var(--bigsize);
+    width: var(--bigsize);
+    background-color: lightgreen;
+    margin: 50px;
+    position: relative;
+}
+
+.innerinner{
+    height: var(--smallsize);
+    width: var(--smallsize);
+    background-color: red;
+    position: Absolute;
+    bottom: 0;
+}
