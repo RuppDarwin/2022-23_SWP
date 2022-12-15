@@ -1,0 +1,20 @@
+.caption{
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: max-content;
+    margin: 40px;
+    box-shadow: 2px 2px 5px;
+}
+
+.img{
+    width: 200px;
+    height: auto;
+}
